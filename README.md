@@ -23,7 +23,7 @@ A full-featured CMS written largely in procedural JavaScript, jQuery, and PHP. T
 * Troubleshooting options and log files.
 * Python image gallery maker available as a separate, standlone download.
 * High-performance, responsive lightbox image galleries for use with the image gallery maker Mac app/Python script, that make extensive use of preloading to give users a fast, seamless photo-browsing experience even while viewing extremely high-res images. Also includes a noscript fallback so that galleries can be viewed even if a user has disabled JavaScript.
-* MyPage image gallery maker app for Mac (available here)!
+* MyPage image gallery maker app for Mac!
 * Contact form spam protection, that checks emails against a list of commonly used spam keywords and sends spam mails to spam@www.yourdomain.com instead of mail@www.yourdomain.com, allowing you to set up a spam filter in a program like Gmail.
 * Option to get an email alert with detailed tracking information when someone visits all or specific webpages on your website.
 * Option to block your own visits by setting a cookie that tells the CMS' tracking feature to ignore visits from your browser.
