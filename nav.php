@@ -1,0 +1,1 @@
+<center><div class='nav_container'><br><a href='../pages/index.php' class='nav-link'>Index</a><p class='separator'> | </p><a href='../pages/blog.php' class='nav-link'>Blog</a><p class='separator'> | </p><a href='../pages/contact.php' class='nav-link'>Contact</a><p class='separator'> | </p><br></div></center>

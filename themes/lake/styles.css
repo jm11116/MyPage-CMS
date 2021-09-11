@@ -1,0 +1,43 @@
+@font-face {
+  font-family: headings;
+  src: url(../../assets/fonts/muli/Muli-ExtraLight.ttf);
+}
+@font-face {
+  font-family: paragraph;
+  src: url(../../assets/fonts/alegreya/Alegreya-Regular.otf);
+}
+body {
+  background-image: url("bg.jpg");
+}
+ol, ul {
+  margin-top: -20px;
+  margin-bottom: -40px;
+}
+h1, h2, h3, h4 {
+  margin-top: 10px;
+}
+.content_box {
+  display: block;
+  width: 75%;
+  margin: auto;
+  border-style: none;
+  margin-bottom: 10vh;
+  margin-top: 3vh;
+}
+.subheading {
+  background-color: rgba(0, 0, 0, 0.301);
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+#actual_content {
+  margin-top: -10px;
+}
+.bg_overlay {
+  background-color: rgba(84, 84, 84, 0);
+}
+@media screen and (max-width: 900px) {
+  .content_box {
+    width: 100vw;
+    margin-top: 0px;
+  }
+}

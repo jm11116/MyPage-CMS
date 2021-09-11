@@ -1,0 +1,132 @@
+@font-face {
+  font-family: headings;
+  src: url(../../assets/fonts/arrow/arrow.ttf);
+}
+@font-face {
+  font-family: paragraph;
+  src: url(../../assets/fonts/muli/Muli.ttf);
+}
+
+body {
+  background-image: url("bg.jpg");
+  background-color: black;
+  color: white;
+}
+.nav_container {
+  width: 68%;
+}
+.tagline {
+  width: 82vw;
+  display: block;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(212, 212, 212);
+}
+.content_box {
+  color: white;
+  margin-top: 40px;
+}
+.blog_link {
+  color: rgb(235, 235, 235) !important;
+}
+.blog_link:hover {
+  color: rgb(212, 212, 212) !important;
+}
+.page_image {
+  border-color: black;
+}
+#actual_content {
+  background-color:rgba(0, 0, 0, 0);
+  color: white;
+}
+.subheading { /* Entire header box with title, subtitle, etc */
+  background-color: rgba(41, 41, 41, 0);
+  margin-bottom: -40px;
+  color: white;
+}
+.nav-link {
+  color: white;
+  font-style: italic;
+  font-size: 2.5em;
+}
+.blog_contact_text {
+  color: white;
+}
+label {
+  color: white;
+}
+input[type="text"]{
+  margin-top: 5px;
+}
+textarea {
+  margin-top: 5px;
+}
+input[type="text"]:focus {
+  color: rgb(203, 163, 255);
+}
+textarea:focus {
+  color: rgb(203, 163, 255);
+}
+.separator {
+  color: white;
+  font-style: italic;
+}
+.page_heading {
+  color: white;
+}
+h1, h2, h3, h4 {
+  color: white;
+  font-weight: lighter;
+}
+p {
+  color: white;
+}
+.text_div {
+  color: white;
+}
+ol, ul, li {
+  color: white;
+}
+hr {
+  border-color: white;
+}
+button {
+  background-color: rgb(238, 238, 238);
+  color: rgb(43, 43, 43);
+}
+button:hover {
+  background-color: rgb(212, 212, 212);
+  color: rgb(43, 43, 43);
+}
+.content_box { /* Box that contains header, footer, and content divs */
+  border-color: rgba(41, 41, 41, 0.692);
+  border-style: none;
+  color: white;
+}
+.bg_overlay {
+  background-color: rgba(0, 0, 0, 0.267);
+}
+.header {
+  color: white;
+  font-size: 4em;
+  font-style: italic;
+}
+.company {
+  color: white;
+}
+.page_heading {
+  padding-top: 60px;
+}
+h1, h2, h3, h4 {
+  margin-top: 20px;
+}
+#actual_content a {
+  color:rgb(193, 241, 255);
+}
+#actual_content a:hover {
+  color: rgb(106, 165, 182);
+}

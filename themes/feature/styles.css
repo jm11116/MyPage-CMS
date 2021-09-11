@@ -1,0 +1,133 @@
+@font-face {
+  font-family: headings;
+  src: url(../../assets/fonts/proxima/ProximaNova-Regular.otf);
+  font-weight: lighter;
+}
+@font-face {
+  font-family: paragraph;
+  src: url(../../assets/fonts/vollkorn/Vollkorn-Regular.ttf);
+}
+body {
+  background-color:rgb(0, 0, 0);
+}
+.background {
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  left: 0px;
+  background-size: cover;
+  position: fixed;
+  opacity: 0.8;
+  z-index: -1;
+}
+ol, ul {
+  margin-top: -25px;
+}
+img {
+	max-width: 100%;
+	display: block;
+	margin: auto;
+}
+table, th, td, tr {
+  border: 1px solid black;
+  width: auto !important;
+  background-color: none !important;
+  font-size: 1em !important;
+}
+table {
+  display: inline-block;
+  margin: auto;
+  font-style: center;
+}
+td {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+h1, h2, h3, h4 {
+  margin-top: 10px;
+  margin-bottom: -20px;
+  font-size: 2.2em;
+  line-height: 1.3em;
+  color: rgb(114, 86, 74);
+}
+input[type="text"]{
+  background-color: rgb(221, 221, 221);
+}
+textarea {
+  background-color: rgb(221, 221, 221);
+}
+a:hover {
+  color: #ccc3b5;
+}
+.page_heading {
+  margin-bottom: 5px;
+  font-size: 2.5em;
+  color: rgb(114, 86, 74);
+}
+.header {
+  color: #f4ebdc;
+  font-size: 2em;
+}
+.tagline {
+  color: #e6e6e6;
+  padding-top: 10px;
+  padding-bottom: 0;
+  font-size: 1em;
+  font-weight: 100;
+  font-style: italic;
+  display: none;
+}
+.nav-link {
+  color: #ffffffeb;
+  font-size: 1.3em;
+  font-weight: lighter;
+}
+.nav_container {
+  margin-bottom: 5px;
+  margin-top: -30px;
+}
+.separator {
+  color: #ffffffeb;
+}
+.content_box {
+  left: -10px;
+  display: block;
+  width: 100vw;
+  margin: auto;
+  border-style: none;
+  margin-bottom: 10vh;
+  margin-top: -10px;
+  -webkit-box-shadow: 2px 2px 5px 0px #00000070; 
+  box-shadow: 2px 2px 5px 0px #00000070; 
+}
+#actual_content a {
+  color: grey !important;
+}
+.text_div {
+	width: 75%;
+}
+.subheading {
+  background-color: rgba(39, 39, 39, 0);
+  padding-top: 22vh;
+  padding-bottom: 0px;
+}
+#actual_content {
+  background-color: rgb(255, 255, 255);
+  margin-top: 100px;
+}
+.bg_overlay {
+  background-color: rgb(0, 0, 0);
+}
+@media screen and (max-width: 900px) {
+  .content_box {
+    width: 100vw;
+    margin-top: 0px;
+    left: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+}
+@media screen and (min-width: 1500px) {
+  #actual_content {
+    margin-top: 75vh;
+  }
+}

@@ -1,0 +1,60 @@
+@font-face {
+  font-family: headings;
+  src: url(../../assets/fonts/muli/Muli-ExtraLight.ttf);
+}
+@font-face {
+  font-family: paragraph;
+  src: url(../../assets/fonts/alegreya/Alegreya-Regular.otf);
+}
+body {
+  background-image: url("bg.jpg");
+  background-size: contain;
+  background-color: white;
+  background-attachment: scroll;
+}
+a:hover {
+  color: rgb(121, 121, 121);
+}
+.content_box a:hover {
+  color: rgb(121, 121, 121);
+}
+ol, ul {
+  margin-top: -20px;
+  margin-bottom: -40px;
+}
+h1, h2, h3, h4 {
+  margin-top: 10px;
+}
+.subheading {
+  background-color: rgba(255, 255, 255, 0);
+}
+.header {
+  color: rgb(51, 51, 51);
+}
+.nav-link {
+  color: rgb(51, 51, 51);
+}
+.tagline {
+  color: rgb(51, 51, 51);
+}
+.separator {
+  color: rgb(51, 51, 51);
+}
+.content_box {
+  border-style: none;
+  width: 75%;
+  margin-top: 40px;
+  margin-bottom: 8vh;
+}
+#actual_content {
+  margin-top: -25px;
+  background-color: rgba(255, 255, 255, 0);
+}
+.bg_overlay {
+  background-color: rgba(255, 255, 255, 0);
+}
+@media screen and (max-width: 900px) {
+  .content_box {
+    width: 100vw;
+  }
+}

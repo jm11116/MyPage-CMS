@@ -1,0 +1,1 @@
+<div class='blog_posts'><br><p style='text-align:center';>No posts yet.</p></div>

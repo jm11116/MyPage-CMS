@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<info>
+<captcha_enabled>false</captcha_enabled>
+<domain_name>www.mywebsite.com</domain_name>
+<hosting_provider>My Webhost</hosting_provider>
+<creator>The Creator</creator>
+<support_email>support@support.com</support_email>
+<app_website>www.mypage-cms.com</app_website>
+<misc>Place other information about this website for your clients here.</misc>
+</info>

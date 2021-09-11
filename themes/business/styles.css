@@ -1,0 +1,60 @@
+@font-face {
+  font-family: headings;
+  src: url(../../assets/fonts/muli/Muli-ExtraLight.ttf);
+}
+@font-face {
+  font-family: paragraph;
+  src: url(../../assets/fonts/alegreya/Alegreya-Regular.otf);
+}
+body {
+  background-image: url("bg.jpg");
+}
+ol, ul {
+  margin-top: -20px;
+  margin-bottom: -40px;
+}
+h1, h2, h3, h4 {
+  margin-top: 10px;
+}
+.content_box {
+  width: 100vw;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  display: block;
+  margin: auto;
+  border-style: none;
+}
+.bg_overlay {
+  background-color: rgba(84, 84, 84, 0);
+}
+@media screen and (max-width: 900px) {
+  body {
+    background-image: none;
+  }
+  .subheading {
+    background-image: url("mobile_bg.jpg");
+    background-size: cover;
+  }
+  #actual_content {
+    margin-top: -10px;
+  }
+}
+@media screen and (max-width: 550px) {
+  body {
+    background-image: none;
+  }
+  .subheading {
+    background-image: url("mobile_bg_small.jpg");
+    background-size: cover;
+  }
+}
+@supports (-webkit-touch-callout: none) {
+  body {
+    background-image: none;
+  }
+  .subheading {
+    background-image: url("mobile_bg.jpg");
+    background-size: cover;
+  }
+}

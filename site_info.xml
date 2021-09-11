@@ -1,0 +1,19 @@
+<?xml version="1.0"?><info>
+<sitename>My Website</sitename>
+<tagline>An easy-to-use website editor for your next project</tagline>
+<keywords>my, null, website</keywords>
+<owner>Me</owner>
+<title_descript>This is my website</title_descript>
+<company>Built with MyPage CMS&lt;br&gt;Find out more at &lt;a href='http://www.mypage-cms.com' target='_blank'&gt;www.mypage-cms.com&lt;/a&gt;</company>
+<email>placeholder@fake.com</email>
+<site_enabled>enabled</site_enabled>
+<contact_enabled>true</contact_enabled>
+<blog_enabled>true</blog_enabled>
+<hidden></hidden>
+<theme>Bewitched</theme>
+<userstack_key></userstack_key>
+<ipstack_key></ipstack_key>
+<timezone>Australia/Sydney</timezone>
+<no_track>::1</no_track>
+<alert_pages></alert_pages>
+</info>

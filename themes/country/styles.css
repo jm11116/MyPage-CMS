@@ -1,0 +1,75 @@
+@font-face {
+  font-family: headings;
+  src: url(../../assets/fonts/vollkorn/Vollkorn-Regular.ttf);
+}
+@font-face {
+  font-family: paragraph;
+  src: url(../../assets/fonts/alegreya/Alegreya-Regular.otf);
+}
+body {
+  background-image: url("bg.jpg");
+}
+ol, ul {
+  margin-top: -25px;
+}
+h1, h2, h3, h4 {
+  margin-top: 10px;
+  margin-bottom: -20px;
+  color: #383838;
+}
+input[type="text"]{
+  background-color: white;
+}
+textarea {
+  background-color: white;
+}
+a:hover {
+  color: #ccc3b5;
+}
+.page_heading {
+  color: #383838;
+  margin-bottom: 5px;
+}
+.header {
+  color: #f2ddc1eb;
+}
+.tagline {
+  color: #e6e6e6;
+  padding-top: 10px;
+}
+.nav-link {
+  color: #f2ddc1eb;
+}
+.separator {
+  color: #f2ddc1eb;
+}
+.content_box {
+  display: block;
+  width: 85%;
+  margin: auto;
+  border-style: none;
+  margin-bottom: 10vh;
+  margin-top: 3vh;
+  -webkit-box-shadow: 2px 2px 5px 0px #00000070; 
+  box-shadow: 2px 2px 5px 0px #00000070; 
+}
+.subheading {
+  background-color: rgba(0, 0, 0, 0.659);
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+#actual_content {
+  background-color: #f2ddc1eb;
+  margin-top: -10px;
+}
+.bg_overlay {
+  background-color: rgba(84, 84, 84, 0);
+}
+@media screen and (max-width: 900px) {
+  .content_box {
+    width: 100vw;
+    margin-top: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+}

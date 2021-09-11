@@ -1,0 +1,79 @@
+@font-face {
+  font-family: headings;
+  src: url(../../assets/fonts/muli/Muli-ExtraLight.ttf);
+}
+@font-face {
+  font-family: paragraph;
+  src: url(../../assets/fonts/proxima/ProximaNova-Regular.otf);
+}
+body {
+  background-image: url("bg.jpg");
+  font-family: paragraph;
+}
+#actual_content a {
+  color: rgb(135, 137, 255);
+}
+#actual_content a:hover {
+  color: rgb(101, 103, 250);
+}
+ol, ul {
+  margin-top: -20px;
+  margin-bottom: -40px;
+  color: rgb(209, 209, 209);
+}
+li {
+  color: rgb(209, 209, 209);
+}
+h1, h2, h3, h4 {
+  margin-top: 10px;
+  color: rgb(209, 209, 209);
+}
+hr {
+  border-color:rgb(209, 209, 209);
+}
+.content_box {
+  width: 75vw;
+  display: block;
+  margin: auto;
+  border-style: none;
+  margin-bottom: 10vh;
+}
+#actual_content {
+  background-color: rgba(31, 31, 31, 0.829);
+}
+.blog_contact_text {
+  color: rgb(209, 209, 209);
+}
+label {
+    color: rgb(209, 209, 209);
+}
+textarea {
+  background-color: rgb(209, 209, 209);
+}
+input [type="text"]{
+  background-color: rgb(209, 209, 209);
+}
+button {
+  background-color: rgb(209, 209, 209);
+  color: rgb(43, 43, 43);
+}
+.page_heading {
+  color: rgb(209, 209, 209);
+}
+.text_div {
+  color: rgb(209, 209, 209);
+}
+.bg_overlay {
+  background-color: rgba(0, 0, 0, 0.358);
+}
+.company {
+  color: rgb(209, 209, 209);
+}
+.excerpt {
+  color: rgb(209, 209, 209);
+}
+@media screen and (max-width: 900px) {
+  .content_box {
+    width: 100vw;
+  }
+}
