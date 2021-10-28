@@ -10,7 +10,7 @@
 <meta name="msapplication-config" content="../icons/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
 
-<script   src="https://code.jquery.com/jquery-3.5.1.js"   integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="   crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
 
 <link rel="stylesheet" href="../themes/core.css">
