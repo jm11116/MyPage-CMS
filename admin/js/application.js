@@ -93,19 +93,19 @@ $(".section_link").click(function(){
     var bigger_font_size = "1.3em";
     $(".section_link").css("font-size", base_font_size);
     $(this).css("font-size", bigger_font_size);
-            $.ajax({
-            beforeSend: function(){
-                $("#main").html("<div id='loading'></div>");
-            },
-            url: link,
-            type: "POST",
-            error: function(xhr){
-                alert("An error occured: " + xhr.status + " " + xhr.statusText);
-            },
-            success: function(data){
-                $("#main").html(data);
-            }
-        });
+    $.ajax({
+        beforeSend: function(){
+            $("#main").html("<div id='loading'></div>");
+        },
+        url: link,
+        type: "POST",
+        error: function(xhr){
+            alert("An error occured: " + xhr.status + " " + xhr.statusText);
+        },
+        success: function(data){
+            $("#main").html(data);
+        }
+    });
 });
 
 });
